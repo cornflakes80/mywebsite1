@@ -100,7 +100,7 @@ th, td {
 
 
     }
-    
+    .over {overflow-x; auto} 
 .sampleM {font-weight: bold;}
 .wegyubip {background-color: #9c822b;
 }
@@ -143,4 +143,5 @@ padding: 5px;
 .facebook {
   margin-bottom: 80px;
 }
+
 
