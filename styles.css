@@ -3,9 +3,7 @@ body {
     
     font-family:sans-serif;
     color:rgb(233, 226, 226);
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 50px;
+    margin: 50px 100px;
   }
 h1 {
     text-align: center;
@@ -145,3 +143,4 @@ padding: 5px;
 .facebook {
   margin-bottom: 80px;
 }
+
