@@ -77,7 +77,8 @@ ul li a:hover {
   opacity: 1;
  }
 .photoswap:hover {
-  animation-play-state: paused;
+  animation: none;
+  transform: rotate(0deg);
 }
 
 .photoswap img.Top {
@@ -155,3 +156,4 @@ padding: 5px;
 .facebook {
   margin-bottom: 80px;
 }
+
