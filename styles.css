@@ -95,7 +95,7 @@ table {
       width: 100%;
       border-collapse: collapse;
       border: 2px solid black;
-      margin-bottom: 20px;
+
       background: rgb(216, 205, 205);
       color: black;
      
@@ -156,4 +156,5 @@ padding: 5px;
 .facebook {
   margin-bottom: 80px;
 }
+
 
