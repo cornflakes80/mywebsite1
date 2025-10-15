@@ -28,6 +28,7 @@ ul {
   padding-left: 100px;
   overflow: hidden;
   background-color: rgb(58, 10, 10);
+  display: flex;
 }
 
 
@@ -45,9 +46,6 @@ ul li a:hover {
   background-color: #9c822b;
   border-radius: 10px;
   border-style: outset;
-}
-.navbar1 {text-align: center;
-display: flex;
 }
 
 .photoswap {
@@ -156,6 +154,7 @@ padding: 5px;
 .facebook {
   margin-bottom: 80px;
 }
+
 
 
 
