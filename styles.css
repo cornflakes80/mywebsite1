@@ -193,6 +193,10 @@ a {
   border: none;
   background-color: hsl(0, 0%, 20%);
   color: white;
+}
+h3 {color: white;
+  text-align: right;
+  margin-right: 20px;
 
 }
 
