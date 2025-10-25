@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="myJava.js"></script>
     <title>My Portfolio</title>
   </head>
 
@@ -22,8 +21,8 @@
     </div>
     <hr />
 
-    <table>
-      <tr class="wegyubip">
+    <table id="plannerTable">
+      <tr>
         <th>Goal</th>
         <th>2026</th>
         <th>2027</th>
@@ -31,22 +30,21 @@
       </tr>
       <tr>
         <td contenteditable="true">Career</td>
-        <td contenteditable="true">
-                 </td>
+        <td contenteditable="true"></td>
         <td contenteditable="true"></td>
         <td contenteditable="true"></td>
       </tr>
       <tr>
-        <td contenteditable="true">Career</td>
-        <td contenteditable="true">
-          
-        </td>
+        <td contenteditable="true">Health</td>
+        <td contenteditable="true"></td>
         <td contenteditable="true"></td>
         <td contenteditable="true"></td>
       </tr>
     </table>
-   
-    
+
+    <button onclick="savePlanner()">Save</button>
+    <button onclick="loadPlanner()">Load</button>
+
     <hr />
     <p class="sampleM">Some Important Things To Know</p>
 
@@ -72,9 +70,29 @@
         <td contenteditable="true"></td>
       </tr>
     </table>
+
+    <div id="calculator">
+      <input id="display" readonly />
+      <div id="keys">
+        <button onclick="appendToDisplay('+')" class="button2">+</button>
+        <button onclick="appendToDisplay('7')" class="button2">7</button>
+        <button onclick="appendToDisplay('8')" class="button2">8</button>
+        <button onclick="appendToDisplay('9')" class="button2">9</button>
+        <button onclick="appendToDisplay('-')" class="button2">-</button>
+        <button onclick="appendToDisplay('4')" class="button2">4</button>
+        <button onclick="appendToDisplay('5')" class="button2">5</button>
+        <button onclick="appendToDisplay('6')" class="button2">6</button>
+        <button onclick="appendToDisplay('*')" class="button2">*</button>
+        <button onclick="appendToDisplay('1')" class="button2">1</button>
+        <button onclick="appendToDisplay('2')" class="button2">2</button>
+        <button onclick="appendToDisplay('3')" class="button2">3</button>
+        <button onclick="appendToDisplay('/')" class="button2">/</button>
+        <button onclick="appendToDisplay('0')" class="button2">0</button>
+        <button onclick="appendToDisplay('.')" class="button2">.</button>
+        <button onclick="calculate()" class="button2">=</button>
+        <button onclick="clearDisplay()" class="button2">C</button>
+      </div>
+    </div>
+    <script src="myJava.js"></script>
   </body>
 </html>
-
-
-
-
