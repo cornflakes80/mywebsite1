@@ -1,11 +1,10 @@
 body {
     background-color: rgb(185, 181, 181);
-    
+
+    min-width: 50%;
     font-family:sans-serif;
-    color: rgb(15, 15, 20);
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 50px;
+    color:rgb(15, 15, 20);
+    margin: 50px 100px;
   }
 h1 {
     text-align: center;
@@ -13,10 +12,12 @@ h1 {
     font-size: 50px;
     background-color: rgb(15, 15, 20);
     padding: 12px;
+    border-radius: 10px;
+    
     color:white;
     margin-bottom: 0px;
-          
-  }
+     
+ }
 
 .navbar1 {margin: 0;
   }
@@ -29,21 +30,23 @@ ul {
   overflow: hidden;
   background-color: rgb(58, 10, 10);
   justify-content: center;
+  border-radius: 10px;
 }
 
 
-ul li {
-  
+ul li a{
+  border: 2px solid transparent; 
   padding: 17px;
   text-decoration: none;
-  display: inline-block;
-  display: flex; 
+  display: block; 
 }
 
 ul li a:hover {
   background-color: #9c822b;
   border-radius: 10px;
-  border-style: outset;
+  border-color: white;
+  border: 2px solid; 
+  
 }
 
 
@@ -106,13 +109,17 @@ th, td {
       text-align: center;
       vertical-align: top;
       word-wrap: break-word;
-      overflow-wrap: break-word; 
+      
 
 
     }
     
 .sampleM {font-weight: bold;}
 .wegyubip {background-color: #9c822b;
+           overflow: hidden;
+           padding: 5px;
+           table-layout: fixed;
+           word-wrap: break-word;
 }
 
 p {
@@ -199,6 +206,7 @@ h3 {color: white;
   margin-right: 20px;
 
 }
+
 
 
 
