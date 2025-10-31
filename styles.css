@@ -16,11 +16,13 @@ h1 {
     
     color:white;
     margin-bottom: 0px;
-     
- }
-
-.navbar1 {margin: 0;
+    
+   
+    
   }
+.navbar1 {
+margin: 0;}
+
 
 ul {
  
@@ -55,7 +57,7 @@ ul li a:hover {
   display: inline-block;
   width: 200px; 
   height: auto;
-  border: 4px solid rgb(58, 10, 10);
+  border: 4px solid white;
   border-radius: 50%;
   overflow: hidden;
   margin: 10px;
@@ -91,7 +93,7 @@ ul li a:hover {
 
 table {
       
-     table-layout:fixed;
+      table-layout:fixed;
       width: 100%;
       border-collapse: collapse;
       border: 2px solid black;
@@ -109,17 +111,18 @@ th, td {
       text-align: center;
       vertical-align: top;
       word-wrap: break-word;
+     
       
-
-
     }
     
 .sampleM {font-weight: bold;}
 .wegyubip {background-color: #9c822b;
-           overflow: hidden;
-           padding: 5px;
-           table-layout: fixed;
-           word-wrap: break-word;
+  overflow: hidden;
+  padding: 5px;
+  table-layout: fixed;
+  width: 100%;
+  word-wrap: break-word;
+
 }
 
 p {
@@ -127,7 +130,7 @@ p {
         font-size: 18px; 
  }
 
-.box { 
+.aboutbox { 
   overflow: hidden;
   border: 2px solid white;
 padding: 20px 40px;
@@ -138,15 +141,16 @@ margin: 20px 20px;
 
 
  button {border-bottom-style: outset;
-        padding: 10px;
+        padding: 5px;
         border-color: rgb(58, 10, 10);
+        margin: auto;
+        width: 25%;
 }
 a {
     font-size: 20px;
-    color: white;
+    color:white;
     padding: 5px;
 }
-
 .facebook:hover {
   padding: 20px;
   border-radius: 10px;
@@ -160,10 +164,12 @@ a {
 .facebook {
   margin-bottom: 80px;
 }
+th {background-color: #9c822b;}
+.specialbuttons {width: 5%;}
 
 .button2 {
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   border: none;
   background-color: hsl(0, 0%, 30%);
@@ -172,17 +178,22 @@ a {
   font-weight: bold;
   cursor: pointer;
 }
+.button2:hover {background-color: hsl(0, 0%, 40%);}
+.button2:active {background-color: hsl(0, 0%, 50%);}
+.button3 {background-color: hsl(39, 100%, 50%)}
+.button3:hover {background-color: hsl(39, 100%, 60%)}
 #keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
-  padding: 25px;
+  padding: 30px;
+
 }
 #calculator {
   font-family: Arial, Helvetica, sans-serif;
   background-color: hsl(0, 0%, 15%);
   border-radius: 15px;
-  max-width: 500px;
+  max-width: 400px;
   overflow: hidden;
 }
 #calculator {
@@ -195,30 +206,22 @@ a {
 #display {
   width: 100%;
   padding: 25px;
-  font-size: 5rem;
+  font-size: 3rem;
   text-align: left;
   border: none;
   background-color: hsl(0, 0%, 20%);
   color: white;
 }
+
+
 h3 {color: white;
   text-align: right;
   margin-right: 20px;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#display:hover {background-image: url(mingming2.JPG);
+       
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+iframe {border-radius: 2%; }
