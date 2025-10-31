@@ -71,27 +71,35 @@
       </tr>
     </table>
 
-    <div id="calculator">
-      <h3>Henry's Calculator</h3>
-      <input id="display">
+       <div id="calculator">
+      <h3>H1 Calculator</h3>
+      <input id="display" readonly />
       <div id="keys">
-        <button onclick="appendToDisplay('+')" class="button2">+</button>
+        <button onclick="appendToDisplay('+')" class="button2 button3">
+          +
+        </button>
         <button onclick="appendToDisplay('7')" class="button2">7</button>
         <button onclick="appendToDisplay('8')" class="button2">8</button>
         <button onclick="appendToDisplay('9')" class="button2">9</button>
-        <button onclick="appendToDisplay('-')" class="button2">-</button>
+        <button onclick="appendToDisplay('-')" class="button2 button3">
+          -
+        </button>
         <button onclick="appendToDisplay('4')" class="button2">4</button>
         <button onclick="appendToDisplay('5')" class="button2">5</button>
         <button onclick="appendToDisplay('6')" class="button2">6</button>
-        <button onclick="appendToDisplay('*')" class="button2">*</button>
+        <button onclick="appendToDisplay('*')" class="button2 button3">
+          *
+        </button>
         <button onclick="appendToDisplay('1')" class="button2">1</button>
         <button onclick="appendToDisplay('2')" class="button2">2</button>
         <button onclick="appendToDisplay('3')" class="button2">3</button>
-        <button onclick="appendToDisplay('/')" class="button2">/</button>
+        <button onclick="appendToDisplay('/')" class="button2 button3">
+          /
+        </button>
         <button onclick="appendToDisplay('0')" class="button2">0</button>
         <button onclick="appendToDisplay('.')" class="button2">.</button>
         <button onclick="calculate()" class="button2">=</button>
-        <button onclick="clearDisplay()" class="button2">C</button>
+        <button onclick="clearDisplay()" class="button2 button3">C</button>
       </div>
     </div>
     <script src="myJava.js"></script>
