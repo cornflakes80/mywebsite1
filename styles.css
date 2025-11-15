@@ -18,8 +18,11 @@ h1 {
   margin-bottom: 0px;
 }
 
-.navbar1 {
+.navbar1 a {
   margin: 0;
+  font-size: 20px;
+  color: white;
+  padding: 15px;
 }
 
 /* NAVIGATION */
@@ -147,11 +150,6 @@ button {
   width: 25%;
 }
 
-a {
-  font-size: 20px;
-  color: white;
-  padding: 5px;
-}
 
 .facebook:hover {
   padding: 20px;
@@ -353,3 +351,4 @@ iframe {
     width: 80%;
   }
 }
+
