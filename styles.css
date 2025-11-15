@@ -155,7 +155,6 @@ button {
   padding: 20px;
   border-radius: 10px;
   border-style: outset;
-  margin: auto;
   color: white;
   border-color: rgb(15, 15, 20);
   background-color: #9c822b;
@@ -351,4 +350,5 @@ iframe {
     width: 80%;
   }
 }
+
 
