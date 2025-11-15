@@ -70,10 +70,6 @@ ul li a:hover {
   height: auto;
 }
 
-.photoswap:hover img.Top {
-  opacity: 1;
-}
-
 
 
 #flexphoto {
@@ -336,6 +332,7 @@ iframe {
     width: 80%;
   }
 }
+
 
 
 
