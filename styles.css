@@ -74,17 +74,7 @@ ul li a:hover {
   opacity: 1;
 }
 
-.photoswap:hover {
-  animation: none;
-  transform: rotate(0deg);
-}
 
-.photoswap img.Top {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-}
 
 #flexphoto {
   float: left;
@@ -346,6 +336,7 @@ iframe {
     width: 80%;
   }
 }
+
 
 
 
