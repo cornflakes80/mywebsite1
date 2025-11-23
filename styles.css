@@ -401,3 +401,17 @@ iframe {
   display: block;
 }
 
+/* ALL VIDEOS */
+.allvideos {position: relative;
+align-self: center;
+background-color: gray;
+
+}
+
+
+/* SHORTS */
+.shortsrow {margin: max-width;
+  position:relative;
+  align-self: center;
+  padding: 7px,7px;
+}
